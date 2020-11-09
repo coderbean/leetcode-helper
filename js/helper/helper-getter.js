@@ -168,8 +168,10 @@
     })
 
     return '#### Solution'
-      + '\n\nLanguage: **' + language + '**'
-      + '\n\n```' + language.toLowerCase() + '\n'
+      + '\n\nLanguage: **' + language + '**\n'
+      + '\nTime complexity: `O(-)`\n'
+      + '\nTime complexity: `O(-)`\n'
+      + '\n```' + language.toLowerCase() + '\n'
       + answerLines.join('\n')
       + '\n```'
   }
