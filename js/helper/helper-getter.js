@@ -170,7 +170,7 @@
     return '#### Solution'
       + '\n\nLanguage: **' + language + '**\n'
       + '\nTime complexity: `O(-)`\n'
-      + '\nTime complexity: `O(-)`\n'
+      + '\nSpace complexity: `O(-)`\n'
       + '\n```' + language.toLowerCase() + '\n'
       + answerLines.join('\n')
       + '\n```'
